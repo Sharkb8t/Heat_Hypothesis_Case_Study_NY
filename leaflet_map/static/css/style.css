@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.circle {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  border-style: solid;
+  font-size: 16px;
+  font-weight: bold;
+}
+.circle.circle1 {
+  background: rgba(133, 153, 177, 0.608);
+  border-color: #136ef7;
+  color: rgb(243, 244, 248);
+}
+.circle.circle2 {
+  background: rgba(1, 69, 30, 0.561);
+  border-color: rgb(10, 156, 122);
+  color: rgb(252, 252, 252);
+}
+.circle.circle3 {
+  background: rgba(214, 233, 5, 0.475);
+  border-color: rgb(90, 98, 4);
+  color: rgb(0, 0, 0);
+}
+.circle.circle4 {
+  background: rgba(244, 119, 2, 0.39);
+  border-color: rgb(227, 86, 16);
+  color: rgb(247, 247, 241);
+}
+
+
+.legend {
+  padding: 10px;
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
